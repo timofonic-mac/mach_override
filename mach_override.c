@@ -14,7 +14,9 @@
 #include <mach/vm_statistics.h>
 #include <sys/mman.h>
 
-#include <CoreServices/CoreServices.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <MacTypes.h>
 
 /**************************
 *	
